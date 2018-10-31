@@ -1,0 +1,10 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+
+.LabelHeader {
+    -fx-font-size: 40;
+    -fx-font-family: Avenir;
+    -fx-alignment: CENTER;
+}
