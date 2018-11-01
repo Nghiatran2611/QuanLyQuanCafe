@@ -19,7 +19,7 @@ public class QuanLyQuanCafe extends Application {
     
     @Override
     public void start(Stage stage) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("Home.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("/View/Home.fxml"));
         
         Scene scene = new Scene(root);
         
