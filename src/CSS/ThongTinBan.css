@@ -2,9 +2,20 @@
  * Empty Stylesheet file.
  */
 
-
+.Pane {
+    -fx-background-color: #ff99ff
+}
 .LabelHeader {
     -fx-font-size: 40;
     -fx-font-family: Avenir;
     -fx-alignment: CENTER;
+    -fx-background-color: #cc00cc;
+    -fx-text-fill: #ffffff
+}
+
+.ListView {
+    -fx-background-color: #ffffff;
+}
+.PaneInfo{
+    -fx-background-color: #ffffff;
 }
