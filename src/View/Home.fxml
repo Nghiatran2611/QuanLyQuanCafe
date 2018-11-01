@@ -7,11 +7,10 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-
 <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="601.0" stylesheets="@../CSS/StylesHome.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <Button layoutX="363.0" layoutY="257.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="144.0" styleClass="Btn" text="Menu" />
-      <Button layoutX="93.0" layoutY="257.0" mnemonicParsing="false" styleClass="Btn" text="Thông tin bàn" />
+      <Button layoutX="366.0" layoutY="318.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="144.0" styleClass="Btn" text="Menu" />
+      <Button layoutX="92.0" layoutY="318.0" mnemonicParsing="false" styleClass="Btn" text="Thông tin bàn" />
       <GridPane prefHeight="160.0" prefWidth="601.0" styleClass="GrPane">
         <columnConstraints>
           <ColumnConstraints hgrow="SOMETIMES" maxWidth="470.0" minWidth="10.0" prefWidth="457.0" />
@@ -31,5 +30,6 @@
             </Label>
          </children>
       </GridPane>
+      <Button layoutX="228.0" layoutY="224.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="144.0" styleClass="Btn" text="Đặt bàn" />
    </children>
 </Pane>
