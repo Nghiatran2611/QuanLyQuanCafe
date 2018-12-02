@@ -58,7 +58,7 @@
          </font>
       </Button>
       <PasswordField fx:id="txtPassword" layoutX="207.0" layoutY="252.0" prefHeight="34.0" prefWidth="343.0" promptText="Nhập mật khẩu" style="-fx-background-color: #a0a2ab;" />
-      <AnchorPane layoutX="10.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="408.0" prefWidth="757.0" style="-fx-background-color: #8f00b3;">
+      <AnchorPane layoutX="10.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="408.0" prefWidth="757.0" style="-fx-background-color: #669900;">
          <children>
             <Label alignment="CENTER" contentDisplay="CENTER" layoutX="136.0" layoutY="14.0" prefHeight="40.0" prefWidth="485.0" text=" Quản lý quán cafe Tình" textAlignment="CENTER" textFill="#f6f7f8" underline="true">
                <font>
@@ -91,7 +91,7 @@
                   <Font size="15.0" />
                </font>
             </CheckBox>
-            <Button fx:id="btnLogin1" layoutX="451.0" layoutY="315.0" onAction="#btnLogin" prefHeight="34.0" prefWidth="99.0" style="-fx-background-color: #3c58fa;" text="Đăng nhập" textFill="WHITE">
+            <Button fx:id="btnLogin1" layoutX="451.0" layoutY="315.0" onAction="#btnLogin" prefHeight="34.0" prefWidth="99.0" style="-fx-background-color: #cc5200;" text="Đăng nhập" textFill="WHITE">
                <font>
                   <Font size="15.0" />
                </font>

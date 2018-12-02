@@ -7,7 +7,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="601.0" stylesheets="@../CSS/StylesHome.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="601.0" fx:controller="Controller.HomeController" stylesheets="@../CSS/StylesHome.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <Button layoutX="366.0" layoutY="318.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="144.0" styleClass="Btn" text="Menu" />
       <Button layoutX="92.0" layoutY="318.0" mnemonicParsing="false" styleClass="Btn" text="Thông tin bàn" />

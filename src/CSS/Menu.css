@@ -4,27 +4,29 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 */
 /* 
-    Created on : Oct 31, 2018, 1:27:57 PM
-    Author     : mac
+    Created on : Dec 2, 2018, 9:30:55 AM
+    Author     : Tinh
 */
-.GrPane {
+.Pane {
+    -fx-background-color: #fff
+}
+.PaneHeader {
     -fx-background-color: #669900;
 }
-.Label {
-    -fx-font-size: 40;
+.TitleHeader {
     -fx-font-family: Avenir;
-    -fx-text-fill: #ffffff;
     -fx-alignment: CENTER;
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 40;
 }
-.LabelDCSDT {
-   -fx-font-family: Arial;
-   -fx-text-fill: #ffffff;
-   -fx-font-style: italic;
+.Title {
+   -fx-font-size: 15;
+   -fx-padding: 5;
 }
 .Btn {
-    -fx-font-size: 20;
+    -fx-font-size: 15;
     -fx-text-fill: rgb(49, 89, 23);
     -fx-border-color: rgb(49, 89, 23);
     -fx-border-radius: 5;
-    -fx-padding: 3 6 6 6;
+    -fx-padding: 3 3 3 3;
 }

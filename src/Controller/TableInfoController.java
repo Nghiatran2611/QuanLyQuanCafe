@@ -3,12 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package quanlyquancafe;
+package Controller;
+
+import java.net.URL;
+import java.util.ResourceBundle;
+import javafx.fxml.Initializable;
 
 /**
  *
  * @author Tinh
  */
-public class ThongTinBanController {
-    
+public class TableInfoController implements Initializable {
+     @Override
+    public void initialize(URL url, ResourceBundle rb) {
+        // TODO
+    }  
 }

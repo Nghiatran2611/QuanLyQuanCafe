@@ -3,13 +3,13 @@
  */
 
 .Pane {
-    -fx-background-color: #ff99ff
+    -fx-background-color: #fff
 }
 .LabelHeader {
     -fx-font-size: 40;
     -fx-font-family: Avenir;
     -fx-alignment: CENTER;
-    -fx-background-color: #cc00cc;
+    -fx-background-color: #669900;
     -fx-text-fill: #ffffff
 }
 
@@ -20,7 +20,7 @@
     -fx-background-color: #ffffff;
 }
 .Title {
-   -fx-font-size: 20
+   -fx-font-size: 15
 }
 .Input {
    -fx-font-size: 18;
@@ -33,7 +33,7 @@
    -fx-text-fill: grey;
 }
 .Btn {
-    -fx-font-size: 20;
+    -fx-font-size: 15;
     -fx-text-fill: rgb(49, 89, 23);
     -fx-border-color: rgb(49, 89, 23);
     -fx-border-radius: 5;
