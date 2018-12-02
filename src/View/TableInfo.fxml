@@ -7,7 +7,7 @@
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.layout.Pane?>
 
-<BorderPane prefHeight="557.0" prefWidth="811.0" stylesheets="@../CSS/ThongTinBan.css" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="quanlyquancafe.ThongTinBanController">
+<BorderPane prefHeight="557.0" prefWidth="811.0" stylesheets="@../CSS/TableInfo.css" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.TableInfoController">
    <center>
       <Pane prefHeight="676.0" prefWidth="1104.0" styleClass="Pane">
          <children>

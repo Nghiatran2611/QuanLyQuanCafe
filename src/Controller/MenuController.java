@@ -5,7 +5,7 @@
  */
 package Controller;
 
-import Modell.Menu;
+import Model.Menu;
 import java.net.URL;
 import java.util.ResourceBundle;
 import javafx.fxml.FXML;

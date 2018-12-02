@@ -5,6 +5,7 @@
  */
 package Controller;
 
+import java.io.IOException;
 import java.net.URL;
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -12,6 +13,8 @@ import java.sql.SQLException;
 import java.util.ResourceBundle;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import javafx.event.ActionEvent;
+import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 
 /**
@@ -19,18 +22,36 @@ import javafx.fxml.Initializable;
  * @author Tinh
  */
 public class HomeController implements Initializable {
+    SceneMovement sm;
+    @FXML
+    private void callMenuScene(ActionEvent event) throws IOException {
+        sm = new SceneMovement();
+        sm.callNewScene(event, "Menu");
+    }
+    
+    @FXML
+    private void callTableInfoScene(ActionEvent event) throws IOException {
+        sm = new SceneMovement();
+        sm.callNewScene(event, "TableInfo");
+    }
+    
+    @FXML
+    private void callBookScene(ActionEvent event) throws IOException {
+        sm = new SceneMovement();
+        sm.callNewScene(event, "Book");
+    }
     
     @Override
     public void initialize(URL url, ResourceBundle rb) {
-        try {
-            Class.forName("com.mysql.jdbc.Driver");
-        } catch (ClassNotFoundException ex) {
-            Logger.getLogger(HomeController.class.getName()).log(Level.SEVERE, null, ex);
-        }
-        try {
-            Connection cnn = DriverManager.getConnection("jdbc:mysql://localhost:3306/quanlyquancafe", "root", "123456");
-        } catch (SQLException ex) {
-            Logger.getLogger(HomeController.class.getName()).log(Level.SEVERE, null, ex);
-        }
+//        try {
+//            Class.forName("com.mysql.jdbc.Driver");
+//        } catch (ClassNotFoundException ex) {
+//            Logger.getLogger(HomeController.class.getName()).log(Level.SEVERE, null, ex);
+//        }
+//        try {
+//            Connection cnn = DriverManager.getConnection("jdbc:mysql://localhost:3306/quanlyquancafe", "root", "123456");
+//        } catch (SQLException ex) {
+//            Logger.getLogger(HomeController.class.getName()).log(Level.SEVERE, null, ex);
+//        }
     }
 }
